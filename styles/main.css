@@ -1,0 +1,21 @@
+body {
+    display: grid;
+}
+
+img {
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    padding-left: 10px;
+    font-size: 24pt;
+}
+
+@media screen and (min-width:800px) {
+    body {
+        grid-template-columns: 1fr 1fr;
+    }
+}
